@@ -1,0 +1,36 @@
+{
+  "name": "querymind-backend",
+  "version": "1.0.0",
+  "description": "Backend API for QueryMind - Generative AI Conversational Web Application",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test:api": "node test_api.mjs"
+  },
+  "keywords": [
+    "generative-ai",
+    "gemini-api",
+    "express",
+    "nodejs",
+    "jwt",
+    "rate-limiting",
+    "conversational-ai"
+  ],
+  "author": "Ankita Singh",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.3.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
